@@ -5,7 +5,7 @@ from PIL import Image
 
 def load_model():
     try:
-        with open('Leaf_model_pickle1.pkl', "rb") as f:
+        with open('Leaf_model_pickle2.pkl', "rb") as f:
             return pickle.load(f)
     except Exception as e:
         st.error(f"Error loading model: {e}")
